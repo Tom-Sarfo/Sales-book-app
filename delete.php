@@ -1,5 +1,5 @@
 <?php  
- $connect = mysqli_connect("localhost", "tomusbir_sarfo", "snpb]aO_hA)9", "tomusbir_account"); 
+ $connect = mysqli_connect("localhost", "name", "pass", "db"); 
  $sql = "DELETE FROM tbl_sample WHERE id = '".$_POST["id"]."'";  
  if(mysqli_query($connect, $sql))  
  {  
