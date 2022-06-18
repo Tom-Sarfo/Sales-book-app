@@ -1,6 +1,6 @@
 <?php
 session_start();
-$connect = mysqli_connect("localhost", "tomusbir_sarfo", "snpb]aO_hA)9", "tomusbir_account");  
+$connect = mysqli_connect("localhost", "name", "pass", "db");  
 
 if (!isset($_SESSION['user'])) {
 	header("Location: patner_membership/login.php");
