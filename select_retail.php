@@ -1,5 +1,5 @@
 <?php  
- $connect = mysqli_connect("localhost", "tomusbir_sarfo", "snpb]aO_hA)9", "tomusbir_account");  
+require_once '../db.php';  
  $output = '';
  
   $sqli = "SELECT SUM(`color`) AS cash_amt FROM `retail_account` WHERE `status`= 1";
