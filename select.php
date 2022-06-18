@@ -1,5 +1,5 @@
 <?php  
- $connect = mysqli_connect("localhost", "tomusbir_sarfo", "snpb]aO_hA)9", "tomusbir_account");  
+require_once '../db.php';  
  $output = '';
  $query = "SELECT SUM(`amount_paid`) AS amount FROM `tbl_sample` WHERE `acc_status`= 1";
         $res = mysqli_query($connect, $query);
