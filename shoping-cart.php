@@ -1,6 +1,6 @@
 <?php
 session_start();
-	require 'conn.php';
+	require_once '../db.php';
 	
 	if(!ISSET($_SESSION['user'])){
 		//header('location:login.php');
