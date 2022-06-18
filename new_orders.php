@@ -1,6 +1,6 @@
 <?php
 session_start();
-$connect = mysqli_connect("localhost", "tomusbir_sarfo", "snpb]aO_hA)9", "tomusbir_account");  
+require_once '../db.php'; 
 
 if (!isset($_SESSION['user'])) {
 	header("Location: membership/login.php");
